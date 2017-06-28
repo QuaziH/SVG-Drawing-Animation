@@ -1,0 +1,49 @@
+@keyframes offset {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+.outterLine, .innerLine, .top2Dot, .bottom2Dot, .insideLine, .top3Dot, .left3Dot, .right3Dot{
+    animation: offset 2s linear forwards;
+}
+
+.outterLine{
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+}
+
+.innerLine{
+    stroke-dasharray: 400;
+    stroke-dashoffset: 400;
+}
+
+.top2Dot{
+    stroke-dasharray: 400;
+    stroke-dashoffset: 400;
+}
+
+.bottom2Dot{
+    stroke-dasharray: 400;
+    stroke-dashoffset: 400;
+}
+
+.insideLine{
+    stroke-dasharray: 400;
+    stroke-dashoffset: 400;
+}
+
+.top3Dot{
+    stroke-dasharray: 400;
+    stroke-dashoffset: 400;
+}
+
+.left3Dot{
+    stroke-dasharray: 400;
+    stroke-dashoffset: 400;
+}
+
+.right3Dot{
+    stroke-dasharray: 400;
+    stroke-dashoffset: 400;
+}
