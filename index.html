@@ -1,33 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
     <meta charset="UTF-8">
     <title>Website Project</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">.
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <!--<img class="illustration show" src="images/pngseed.png" alt="iMac Illustration">-->
-    <svg width="189" height="300" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+    <!--<img class="seed" src="images/seed.png">-->
+    <svg class="seedImg" width="189" height="300" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
         <g>
             <title>background</title>
             <rect fill="none" id="canvas_background" height="717" width="703" y="-1" x="-1"/>
         </g>
         <g>
-            <title>Layer 1</title>
-            <g id="seed" fill="#000000" transform="translate(0,300) scale(0.10000000149011612,-0.10000000149011612) ">
-                <path class="outterLine" d="m1204,2736c-88,-51 -173,-112 -329,-237c-400,-318 -624,-665 -744,-1150c-37,-150 -51,-264 -51,-427c0,-215 35,-329 149,-479c72,-95 153,-161 267,-214c107,-51 175,-68 318,-79c226,-17 363,19 558,147c105,69 173,150 235,280c72,150 89,236 104,528c8,171 9,284 0,440c-15,293 -44,414 -177,753c-78,197 -87,216 -162,329c-32,49 -67,102 -78,119l-19,31l-71,-41zm127,-87c35,-55 72,-114 82,-130c58,-91 213,-524 246,-684c28,-139 41,-432 30,-685c-14,-347 -30,-425 -117,-595c-80,-157 -235,-283 -437,-355c-65,-23 -83,-25 -245,-24c-205,0 -255,10 -400,82c-79,38 -109,60 -180,132c-169,170 -220,319 -207,605c10,208 55,417 131,614c150,386 350,639 756,953c88,68 261,188 271,188c3,0 35,-45 70,-101z" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-width="3"/>
-                <path class="innerLine" d="m1165,2593c-79,-47 -277,-200 -390,-301c-274,-243 -457,-551 -549,-921c-50,-198 -64,-392 -41,-546c21,-145 71,-242 179,-350c88,-88 168,-136 291,-175c88,-28 312,-39 407,-20c128,25 326,141 400,234c50,62 122,209 143,291c26,101 38,322 32,595c-8,355 -29,456 -164,790c-58,144 -92,213 -156,312c-45,70 -84,127 -87,127c-3,0 -32,-17 -65,-36zm267,-358c131,-319 163,-438 178,-652c18,-275 7,-631 -24,-766c-25,-105 -99,-249 -165,-316c-63,-65 -198,-149 -294,-183c-85,-29 -278,-37 -397,-14c-133,24 -256,90 -350,185c-143,146 -180,248 -180,490c0,277 63,529 202,804c86,173 247,375 409,513c127,109 281,229 353,275l59,37l76,-117c52,-79 95,-162 133,-256z" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-width="3"/>
-                <path class="top2Dot" d="m1171,2516c-14,-17 -7,-36 14,-36c22,0 29,20 13,36c-13,13 -16,13 -27,0z" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-width="3"/>
-                <path class="bottom2Dot" d="m1097,2446c-8,-20 20,-43 35,-28c14,14 3,42 -16,42c-7,0 -16,-6 -19,-14z" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-width="3"/>
-                <path class="insideLine" d="m1399,1255c-4,-5 -10,-48 -14,-95c-18,-224 -83,-372 -257,-582c-21,-26 -34,-49 -29,-53c14,-8 113,114 182,224c66,105 105,215 120,343c11,93 10,182 -2,163z" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-width="3"/>
-                <path class="top3Dot" d="m1305,680c-4,-7 -3,-16 3,-22c14,-14 45,-2 40,15c-6,16 -34,21 -43,7z" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-width="3"/>
-                <path class="left3Dot" d="m1235,590c-4,-7 -3,-16 3,-22c14,-14 45,-2 40,15c-6,16 -34,21 -43,7z" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-width="3"/>
-                <path class="right3Dot" d="m1320,580c0,-13 7,-20 20,-20c13,0 20,7 20,20c0,13 -7,20 -20,20c-13,0 -20,-7 -20,-20z" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-width="3"/>
+            <title>Seed</title>
+            <g id="seed" fill="#000000" transform="translate(0,300) scale(0.10000000149011612,-0.10000000149011612)">
+                <path class="outterLine" d="m1204,2736c-88,-51 -173,-112 -329,-237c-400,-318 -624,-665 -744,-1150c-37,-150 -51,-264 -51,-427c0,-215 35,-329 149,-479c72,-95 153,-161 267,-214c107,-51 175,-68 318,-79c226,-17 363,19 558,147c105,69 173,150 235,280c72,150 89,236 104,528c8,171 9,284 0,440c-15,293 -44,414 -177,753c-78,197 -87,216 -162,329c-32,49 -67,102 -78,119l-19,31l-71,-41zm127" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-width="25"/>
+                <path class="innerLine" d="m1165,2593c-79,-47 -277,-200 -390,-301c-274,-243 -457,-551 -549,-921c-50,-198 -64,-392 -41,-546c21,-145 71,-242 179,-350c88,-88 168,-136 291,-175c88,-28 312,-39 407,-20c128,25 326,141 400,234c50,62 122,209 143,291c26,101 38,322 32,595c-8,355 -29,456 -164,790c-58,144 -92,213 -156,312c-45,70 -84,127 -87,127c-3,0 -32,-17 -65,-36zm267" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-width="25"/>
+                <path class="top2Dot" d="m1171,2516c-14,-17 -7,-36 14,-36c22,0 29,20 13,36c-13,13 -16,13 -27,0z" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-width="25"/>
+                <path class="bottom2Dot" d="m1097,2446c-8,-20 20,-43 35,-28c14,14 3,42 -16,42c-7,0 -16,-6 -19,-14z" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-width="25"/>
+                <path class="insideLine" d="m1399,1255c-4,-5 -10,-48 -14,-95c-18,-224 -83,-372 -257,-582c-21,-26 -34,-49 -29,-53c14" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-width="25"/>
+                <path class="top3Dot" d="m1305,680c-4,-7 -3,-16 3,-22c14,-14 45,-2 40,15c-6,16 -34,21 -43,7z" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-width="25"/>
+                <path class="left3Dot" d="m1235,590c-4,-7 -3,-16 3,-22c14,-14 45,-2 40,15c-6,16 -34,21 -43,7z" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-width="25"/>
+                <path class="right3Dot" d="m1320,580c0,-13 7,-20 20,-20c13,0 20,7 20,20c0,13 -7,20 -20,20c-13,0 -20,-7 -20,-20z" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-width="25"/>
             </g>
         </g>
     </svg>
-    <script src="js/svganimations.js"></script>
+    <!--<script src="js/svganimations.js"></script>-->
+    <script>
+        $(document).ready(function(){
+
+            $(window).resize(function(){
+
+                $('.seedImg').css({
+                    position:'absolute',
+                    left: ($(window).width()
+                    - $('.seedImg').outerWidth())/2,
+                    top: ($(window).height()
+                    - $('.seedImg').outerHeight())/2
+                });
+
+            });
+
+            // To initially run the function:
+            $(window).resize();
+
+        });
+    </script>
 </body>
 </html>

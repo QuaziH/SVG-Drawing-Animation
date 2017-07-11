@@ -9,41 +9,40 @@
 }
 
 .outterLine{
-    stroke-dasharray: 1000;
-    stroke-dashoffset: 1000;
+    stroke-dasharray: 6800;
+    stroke-dashoffset: 6800;
 }
 
 .innerLine{
-    stroke-dasharray: 400;
-    stroke-dashoffset: 400;
+    stroke-dasharray: 6100;
+    stroke-dashoffset: 6100;
+    -webkit-animation-delay: .5s;
+    -moz-animation-delay: .5s;
+    -o-animation-delay: .5s;
+    animation-delay: .5s;
 }
 
-.top2Dot{
-    stroke-dasharray: 400;
-    stroke-dashoffset: 400;
-}
-
-.bottom2Dot{
-    stroke-dasharray: 400;
-    stroke-dashoffset: 400;
+.top2Dot, .bottom2Dot, .top3Dot, .left3Dot, .right3Dot{
+    stroke-dasharray: 150;
+    stroke-dashoffset: 150;
 }
 
 .insideLine{
-    stroke-dasharray: 400;
-    stroke-dashoffset: 400;
+    stroke-dasharray: 1650;
+    stroke-dashoffset: 1650;
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -o-animation-delay: 2s;
+    animation-delay: 2s;
 }
 
-.top3Dot{
-    stroke-dasharray: 400;
-    stroke-dashoffset: 400;
+body{
+    background-color: red;
 }
 
-.left3Dot{
-    stroke-dasharray: 400;
-    stroke-dashoffset: 400;
-}
-
-.right3Dot{
-    stroke-dasharray: 400;
-    stroke-dashoffset: 400;
+.seedImg{
+    position:absolute;
+    left:53%;
+    top:43%;
+    margin:-105px 0 0 -135px;
 }
